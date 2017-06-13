@@ -1,0 +1,147 @@
+i.icon-calendar {
+  background-image: url(../img/sprite.png);
+  background-position: -130px -100px;
+  width: 19px;
+  height: 19px; }
+
+i.icon-camera {
+  background-image: url(../img/sprite.png);
+  background-position: 0px 0px;
+  width: 35px;
+  height: 29px; }
+
+i.icon-facebook-active {
+  background-image: url(../img/sprite.png);
+  background-position: -22px -65px;
+  width: 26px;
+  height: 25px; }
+
+i.icon-facebook {
+  background-image: url(../img/sprite.png);
+  background-position: -48px -65px;
+  width: 26px;
+  height: 25px; }
+
+i.icon-google-active {
+  background-image: url(../img/sprite.png);
+  background-position: -74px -65px;
+  width: 26px;
+  height: 25px; }
+
+i.icon-google {
+  background-image: url(../img/sprite.png);
+  background-position: -104px 0px;
+  width: 26px;
+  height: 25px; }
+
+i.icon-instagram-active {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -122px;
+  width: 25px;
+  height: 25px; }
+
+i.icon-instagram {
+  background-image: url(../img/sprite.png);
+  background-position: -100px -97px;
+  width: 25px;
+  height: 25px; }
+
+i.icon-mail-active {
+  background-image: url(../img/sprite.png);
+  background-position: -130px 0px;
+  width: 25px;
+  height: 25px; }
+
+i.icon-mail {
+  background-image: url(../img/sprite.png);
+  background-position: -130px -25px;
+  width: 25px;
+  height: 25px; }
+
+i.icon-marker {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -65px;
+  width: 22px;
+  height: 32px; }
+
+i.icon-ok-active {
+  background-image: url(../img/sprite.png);
+  background-position: -130px -75px;
+  width: 25px;
+  height: 25px; }
+
+i.icon-ok {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -97px;
+  width: 25px;
+  height: 25px; }
+
+i.icon-phone {
+  background-image: url(../img/sprite.png);
+  background-position: -155px 0px;
+  width: 16px;
+  height: 32px; }
+
+i.icon-rss-active {
+  background-image: url(../img/sprite.png);
+  background-position: -50px -97px;
+  width: 25px;
+  height: 25px; }
+
+i.icon-rss {
+  background-image: url(../img/sprite.png);
+  background-position: -75px -97px;
+  width: 25px;
+  height: 25px; }
+
+i.icon-trangle-left-active {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -29px;
+  width: 23px;
+  height: 36px; }
+
+i.icon-trangle-left-default {
+  background-image: url(../img/sprite.png);
+  background-position: -58px 0px;
+  width: 23px;
+  height: 35px; }
+
+i.icon-trangle-right-active {
+  background-image: url(../img/sprite.png);
+  background-position: -35px 0px;
+  width: 23px;
+  height: 36px; }
+
+i.icon-trangle-right-default {
+  background-image: url(../img/sprite.png);
+  background-position: -81px 0px;
+  width: 23px;
+  height: 35px; }
+
+i.icon-twitter-active {
+  background-image: url(../img/sprite.png);
+  background-position: -104px -50px;
+  width: 26px;
+  height: 25px; }
+
+i.icon-twitter {
+  background-image: url(../img/sprite.png);
+  background-position: -104px -25px;
+  width: 26px;
+  height: 25px; }
+
+i.icon-vk-active {
+  background-image: url(../img/sprite.png);
+  background-position: -25px -97px;
+  width: 25px;
+  height: 25px; }
+
+i.icon-vk {
+  background-image: url(../img/sprite.png);
+  background-position: -130px -50px;
+  width: 25px;
+  height: 25px; }
+
+i.icon {
+  display: inline-block;
+  vertical-align: middle; }

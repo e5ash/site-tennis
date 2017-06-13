@@ -1,0 +1,382 @@
+// SASS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home
+//   width: $icon-home-width
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites
+$calendar-name: 'calendar'
+$calendar-x: 130px
+$calendar-y: 100px
+$calendar-offset-x: -130px
+$calendar-offset-y: -100px
+$calendar-width: 19px
+$calendar-height: 19px
+$calendar-total-width: 171px
+$calendar-total-height: 147px
+$calendar-image: '../img/sprite.png'
+$calendar: (130px, 100px, -130px, -100px, 19px, 19px, 171px, 147px, '../img/sprite.png', 'calendar', )
+$camera-name: 'camera'
+$camera-x: 0px
+$camera-y: 0px
+$camera-offset-x: 0px
+$camera-offset-y: 0px
+$camera-width: 35px
+$camera-height: 29px
+$camera-total-width: 171px
+$camera-total-height: 147px
+$camera-image: '../img/sprite.png'
+$camera: (0px, 0px, 0px, 0px, 35px, 29px, 171px, 147px, '../img/sprite.png', 'camera', )
+$facebook-active-name: 'facebook-active'
+$facebook-active-x: 22px
+$facebook-active-y: 65px
+$facebook-active-offset-x: -22px
+$facebook-active-offset-y: -65px
+$facebook-active-width: 26px
+$facebook-active-height: 25px
+$facebook-active-total-width: 171px
+$facebook-active-total-height: 147px
+$facebook-active-image: '../img/sprite.png'
+$facebook-active: (22px, 65px, -22px, -65px, 26px, 25px, 171px, 147px, '../img/sprite.png', 'facebook-active', )
+$facebook-name: 'facebook'
+$facebook-x: 48px
+$facebook-y: 65px
+$facebook-offset-x: -48px
+$facebook-offset-y: -65px
+$facebook-width: 26px
+$facebook-height: 25px
+$facebook-total-width: 171px
+$facebook-total-height: 147px
+$facebook-image: '../img/sprite.png'
+$facebook: (48px, 65px, -48px, -65px, 26px, 25px, 171px, 147px, '../img/sprite.png', 'facebook', )
+$google-active-name: 'google-active'
+$google-active-x: 74px
+$google-active-y: 65px
+$google-active-offset-x: -74px
+$google-active-offset-y: -65px
+$google-active-width: 26px
+$google-active-height: 25px
+$google-active-total-width: 171px
+$google-active-total-height: 147px
+$google-active-image: '../img/sprite.png'
+$google-active: (74px, 65px, -74px, -65px, 26px, 25px, 171px, 147px, '../img/sprite.png', 'google-active', )
+$google-name: 'google'
+$google-x: 104px
+$google-y: 0px
+$google-offset-x: -104px
+$google-offset-y: 0px
+$google-width: 26px
+$google-height: 25px
+$google-total-width: 171px
+$google-total-height: 147px
+$google-image: '../img/sprite.png'
+$google: (104px, 0px, -104px, 0px, 26px, 25px, 171px, 147px, '../img/sprite.png', 'google', )
+$instagram-active-name: 'instagram-active'
+$instagram-active-x: 0px
+$instagram-active-y: 122px
+$instagram-active-offset-x: 0px
+$instagram-active-offset-y: -122px
+$instagram-active-width: 25px
+$instagram-active-height: 25px
+$instagram-active-total-width: 171px
+$instagram-active-total-height: 147px
+$instagram-active-image: '../img/sprite.png'
+$instagram-active: (0px, 122px, 0px, -122px, 25px, 25px, 171px, 147px, '../img/sprite.png', 'instagram-active', )
+$instagram-name: 'instagram'
+$instagram-x: 100px
+$instagram-y: 97px
+$instagram-offset-x: -100px
+$instagram-offset-y: -97px
+$instagram-width: 25px
+$instagram-height: 25px
+$instagram-total-width: 171px
+$instagram-total-height: 147px
+$instagram-image: '../img/sprite.png'
+$instagram: (100px, 97px, -100px, -97px, 25px, 25px, 171px, 147px, '../img/sprite.png', 'instagram', )
+$mail-active-name: 'mail-active'
+$mail-active-x: 130px
+$mail-active-y: 0px
+$mail-active-offset-x: -130px
+$mail-active-offset-y: 0px
+$mail-active-width: 25px
+$mail-active-height: 25px
+$mail-active-total-width: 171px
+$mail-active-total-height: 147px
+$mail-active-image: '../img/sprite.png'
+$mail-active: (130px, 0px, -130px, 0px, 25px, 25px, 171px, 147px, '../img/sprite.png', 'mail-active', )
+$mail-name: 'mail'
+$mail-x: 130px
+$mail-y: 25px
+$mail-offset-x: -130px
+$mail-offset-y: -25px
+$mail-width: 25px
+$mail-height: 25px
+$mail-total-width: 171px
+$mail-total-height: 147px
+$mail-image: '../img/sprite.png'
+$mail: (130px, 25px, -130px, -25px, 25px, 25px, 171px, 147px, '../img/sprite.png', 'mail', )
+$marker-name: 'marker'
+$marker-x: 0px
+$marker-y: 65px
+$marker-offset-x: 0px
+$marker-offset-y: -65px
+$marker-width: 22px
+$marker-height: 32px
+$marker-total-width: 171px
+$marker-total-height: 147px
+$marker-image: '../img/sprite.png'
+$marker: (0px, 65px, 0px, -65px, 22px, 32px, 171px, 147px, '../img/sprite.png', 'marker', )
+$ok-active-name: 'ok-active'
+$ok-active-x: 130px
+$ok-active-y: 75px
+$ok-active-offset-x: -130px
+$ok-active-offset-y: -75px
+$ok-active-width: 25px
+$ok-active-height: 25px
+$ok-active-total-width: 171px
+$ok-active-total-height: 147px
+$ok-active-image: '../img/sprite.png'
+$ok-active: (130px, 75px, -130px, -75px, 25px, 25px, 171px, 147px, '../img/sprite.png', 'ok-active', )
+$ok-name: 'ok'
+$ok-x: 0px
+$ok-y: 97px
+$ok-offset-x: 0px
+$ok-offset-y: -97px
+$ok-width: 25px
+$ok-height: 25px
+$ok-total-width: 171px
+$ok-total-height: 147px
+$ok-image: '../img/sprite.png'
+$ok: (0px, 97px, 0px, -97px, 25px, 25px, 171px, 147px, '../img/sprite.png', 'ok', )
+$phone-name: 'phone'
+$phone-x: 155px
+$phone-y: 0px
+$phone-offset-x: -155px
+$phone-offset-y: 0px
+$phone-width: 16px
+$phone-height: 32px
+$phone-total-width: 171px
+$phone-total-height: 147px
+$phone-image: '../img/sprite.png'
+$phone: (155px, 0px, -155px, 0px, 16px, 32px, 171px, 147px, '../img/sprite.png', 'phone', )
+$rss-active-name: 'rss-active'
+$rss-active-x: 50px
+$rss-active-y: 97px
+$rss-active-offset-x: -50px
+$rss-active-offset-y: -97px
+$rss-active-width: 25px
+$rss-active-height: 25px
+$rss-active-total-width: 171px
+$rss-active-total-height: 147px
+$rss-active-image: '../img/sprite.png'
+$rss-active: (50px, 97px, -50px, -97px, 25px, 25px, 171px, 147px, '../img/sprite.png', 'rss-active', )
+$rss-name: 'rss'
+$rss-x: 75px
+$rss-y: 97px
+$rss-offset-x: -75px
+$rss-offset-y: -97px
+$rss-width: 25px
+$rss-height: 25px
+$rss-total-width: 171px
+$rss-total-height: 147px
+$rss-image: '../img/sprite.png'
+$rss: (75px, 97px, -75px, -97px, 25px, 25px, 171px, 147px, '../img/sprite.png', 'rss', )
+$trangle-left-active-name: 'trangle-left-active'
+$trangle-left-active-x: 0px
+$trangle-left-active-y: 29px
+$trangle-left-active-offset-x: 0px
+$trangle-left-active-offset-y: -29px
+$trangle-left-active-width: 23px
+$trangle-left-active-height: 36px
+$trangle-left-active-total-width: 171px
+$trangle-left-active-total-height: 147px
+$trangle-left-active-image: '../img/sprite.png'
+$trangle-left-active: (0px, 29px, 0px, -29px, 23px, 36px, 171px, 147px, '../img/sprite.png', 'trangle-left-active', )
+$trangle-left-default-name: 'trangle-left-default'
+$trangle-left-default-x: 58px
+$trangle-left-default-y: 0px
+$trangle-left-default-offset-x: -58px
+$trangle-left-default-offset-y: 0px
+$trangle-left-default-width: 23px
+$trangle-left-default-height: 35px
+$trangle-left-default-total-width: 171px
+$trangle-left-default-total-height: 147px
+$trangle-left-default-image: '../img/sprite.png'
+$trangle-left-default: (58px, 0px, -58px, 0px, 23px, 35px, 171px, 147px, '../img/sprite.png', 'trangle-left-default', )
+$trangle-right-active-name: 'trangle-right-active'
+$trangle-right-active-x: 35px
+$trangle-right-active-y: 0px
+$trangle-right-active-offset-x: -35px
+$trangle-right-active-offset-y: 0px
+$trangle-right-active-width: 23px
+$trangle-right-active-height: 36px
+$trangle-right-active-total-width: 171px
+$trangle-right-active-total-height: 147px
+$trangle-right-active-image: '../img/sprite.png'
+$trangle-right-active: (35px, 0px, -35px, 0px, 23px, 36px, 171px, 147px, '../img/sprite.png', 'trangle-right-active', )
+$trangle-right-default-name: 'trangle-right-default'
+$trangle-right-default-x: 81px
+$trangle-right-default-y: 0px
+$trangle-right-default-offset-x: -81px
+$trangle-right-default-offset-y: 0px
+$trangle-right-default-width: 23px
+$trangle-right-default-height: 35px
+$trangle-right-default-total-width: 171px
+$trangle-right-default-total-height: 147px
+$trangle-right-default-image: '../img/sprite.png'
+$trangle-right-default: (81px, 0px, -81px, 0px, 23px, 35px, 171px, 147px, '../img/sprite.png', 'trangle-right-default', )
+$twitter-active-name: 'twitter-active'
+$twitter-active-x: 104px
+$twitter-active-y: 50px
+$twitter-active-offset-x: -104px
+$twitter-active-offset-y: -50px
+$twitter-active-width: 26px
+$twitter-active-height: 25px
+$twitter-active-total-width: 171px
+$twitter-active-total-height: 147px
+$twitter-active-image: '../img/sprite.png'
+$twitter-active: (104px, 50px, -104px, -50px, 26px, 25px, 171px, 147px, '../img/sprite.png', 'twitter-active', )
+$twitter-name: 'twitter'
+$twitter-x: 104px
+$twitter-y: 25px
+$twitter-offset-x: -104px
+$twitter-offset-y: -25px
+$twitter-width: 26px
+$twitter-height: 25px
+$twitter-total-width: 171px
+$twitter-total-height: 147px
+$twitter-image: '../img/sprite.png'
+$twitter: (104px, 25px, -104px, -25px, 26px, 25px, 171px, 147px, '../img/sprite.png', 'twitter', )
+$vk-active-name: 'vk-active'
+$vk-active-x: 25px
+$vk-active-y: 97px
+$vk-active-offset-x: -25px
+$vk-active-offset-y: -97px
+$vk-active-width: 25px
+$vk-active-height: 25px
+$vk-active-total-width: 171px
+$vk-active-total-height: 147px
+$vk-active-image: '../img/sprite.png'
+$vk-active: (25px, 97px, -25px, -97px, 25px, 25px, 171px, 147px, '../img/sprite.png', 'vk-active', )
+$vk-name: 'vk'
+$vk-x: 130px
+$vk-y: 50px
+$vk-offset-x: -130px
+$vk-offset-y: -50px
+$vk-width: 25px
+$vk-height: 25px
+$vk-total-width: 171px
+$vk-total-height: 147px
+$vk-image: '../img/sprite.png'
+$vk: (130px, 50px, -130px, -50px, 25px, 25px, 171px, 147px, '../img/sprite.png', 'vk', )
+$spritesheet-width: 171px
+$spritesheet-height: 147px
+$spritesheet-image: '../img/sprite.png'
+$spritesheet-sprites: ($calendar, $camera, $facebook-active, $facebook, $google-active, $google, $instagram-active, $instagram, $mail-active, $mail, $marker, $ok-active, $ok, $phone, $rss-active, $rss, $trangle-left-active, $trangle-left-default, $trangle-right-active, $trangle-right-default, $twitter-active, $twitter, $vk-active, $vk, )
+$spritesheet: (171px, 147px, '../img/sprite.png', $spritesheet-sprites, )
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home
+//   @include sprite-width($icon-home)
+//
+// .icon-email
+//   @include sprite($icon-email)
+//
+// Example usage in HTML:
+//   `display: block` sprite:
+//   <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//   // CSS
+//   .icon {
+//     display: inline-block;
+//   }
+//
+//   // HTML
+//   <i class="icon icon-home"></i>
+@mixin sprite-width($sprite)
+  width: nth($sprite, 5)
+
+@mixin sprite-height($sprite)
+  height: nth($sprite, 6)
+
+@mixin sprite-position($sprite)
+  $sprite-offset-x: nth($sprite, 3)
+  $sprite-offset-y: nth($sprite, 4)
+  background-position: $sprite-offset-x  $sprite-offset-y
+
+@mixin sprite-image($sprite)
+  $sprite-image: nth($sprite, 9)
+  background-image: url(#{$sprite-image})
+
+@mixin sprite($sprite)
+  @include sprite-image($sprite)
+  @include sprite-position($sprite)
+  @include sprite-width($sprite)
+  @include sprite-height($sprite)
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SASS
+//
+// @include sprites($spritesheet-sprites)
+@mixin sprites($sprites)
+  @each $sprite in $sprites
+    $sprite-name: nth($sprite, 10)
+    .#{$sprite-name}
+      @include sprite($sprite)
+
+i.icon-calendar
+  @include sprite($calendar)
+i.icon-camera
+  @include sprite($camera)
+i.icon-facebook-active
+  @include sprite($facebook-active)
+i.icon-facebook
+  @include sprite($facebook)
+i.icon-google-active
+  @include sprite($google-active)
+i.icon-google
+  @include sprite($google)
+i.icon-instagram-active
+  @include sprite($instagram-active)
+i.icon-instagram
+  @include sprite($instagram)
+i.icon-mail-active
+  @include sprite($mail-active)
+i.icon-mail
+  @include sprite($mail)
+i.icon-marker
+  @include sprite($marker)
+i.icon-ok-active
+  @include sprite($ok-active)
+i.icon-ok
+  @include sprite($ok)
+i.icon-phone
+  @include sprite($phone)
+i.icon-rss-active
+  @include sprite($rss-active)
+i.icon-rss
+  @include sprite($rss)
+i.icon-trangle-left-active
+  @include sprite($trangle-left-active)
+i.icon-trangle-left-default
+  @include sprite($trangle-left-default)
+i.icon-trangle-right-active
+  @include sprite($trangle-right-active)
+i.icon-trangle-right-default
+  @include sprite($trangle-right-default)
+i.icon-twitter-active
+  @include sprite($twitter-active)
+i.icon-twitter
+  @include sprite($twitter)
+i.icon-vk-active
+  @include sprite($vk-active)
+i.icon-vk
+  @include sprite($vk)
+i.icon
+  display: inline-block
+  vertical-align: middle
